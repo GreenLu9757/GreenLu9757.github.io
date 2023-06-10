@@ -1,0 +1,53 @@
+/* 網站介紹 --> codepen: 可線上編輯HTML、CSS、JS的 */
+
+h1 {
+    color: blue;
+    background-color: #ff870180;
+    justify-content: center;
+    /* RGBa，a = 透明度，spec = 0~1，若為小數點可省略0，最多可至小數點第四位*/
+    
+    /* Hex色碼(16進位色碼)，分為六碼 & 八碼，六碼中前面兩位書代表R，中間兩位數代表G，後兩位數代表B*/
+    /* Hex色碼若#ffffff 可縮寫成#fff，#ff0000可縮寫成#f00 */
+    
+    /* HSL代表色相(hue)、飽和度(saturation)、亮度(lightness) */
+    color: #c32;
+    font-size: 60px;
+    /* 文字大小的單位分成絕對單位 & 相對單位 */
+    /* 絕對單位 : px ，其他單位不要用！！！ */
+    /* 相對單位 : rem、% 、vw、vh */
+    display: flex;
+    padding: 80px;
+}
+
+/* 無前綴符號 */
+h2 {
+    border: solid 1px #c32;
+    border-radius: 5%;
+    width: 6%;
+    justify-content: center;
+}
+h2:hover{
+    color:pink;
+    background-color: blue;
+
+}
+
+/* id前綴符號 "# "*/
+
+#sample{
+    color: #800;
+    font-size: 20px;    
+}
+
+/* class前綴符號 ". "*/
+.news{
+    color: #00f;
+    padding: 50px;
+}
+
+.text-lg{
+    font-size: 50px;
+    background-color: #f83;
+}
+
+a:hover {color: red;} /* 當<a>被滑鼠停留時文字顏色為藍色 */
