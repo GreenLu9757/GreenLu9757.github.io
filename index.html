@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chapter3</title>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h2>Heading2</h2>
+
+    <!-- class要增加，就在雙引號以空格區分 -->
+    <!-- 同時賦予屬性時， 優先度為 id > class > HTML tag-->
+    <!-- 誰先被link進來，誰先被丟棄 -->
+
+    <div class="news text-lg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci modi nulla vel labore reprehenderit vero,
+        facere explicabo saepe maiores cum.
+    </div>
+    <p id="sample">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit minus distinctio nihil vitae mollitia
+        tempore, maxime voluptatum in enim magni.</p>
+
+    <a href="#">123</a>
+
+    <form action="login.php" method="post">
+        帳號:<input type="text" name="account">
+        密碼:<input type="password" name="password">
+        <input type="submit" value="登入">
+    </form>
+    <form action="cart.php" method="post">
+        <input type="submit" value="購物車">
+    </form>
+    <form action="comment.php" method="post">
+        <input type="submit" value="留言板">
+    </form>
+
+    <form action="index.html" method="post">
+        <input type="submit" value="首頁">
+    </form>
+</body>
+
+</html>
